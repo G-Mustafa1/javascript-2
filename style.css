@@ -1,0 +1,19 @@
+body{
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+    align-items: center;
+    background: rgb(6, 6, 56);
+    color: white;
+}
+.btn button{
+   border-radius: 2px;
+}
+.btn button:hover{
+   transition: 1.5s;
+   /* transform: 8.1s; */
+   background-color: rgb(19, 19, 168);
+   color: #fff;
+   border-radius: 5px;
+}
